@@ -1,0 +1,48 @@
+{
+  "name": "billwave-api",
+  "version": "1.0.0",
+  "description": "API for a fintech application",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekoxyprince/billwave-api.git"
+  },
+  "keywords": [
+    "Fintech",
+    "Billwave",
+    "Crypto"
+  ],
+  "author": "Ekoxyboss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekoxyprince/billwave-api/issues"
+  },
+  "homepage": "https://github.com/ekoxyprince/billwave-api#readme",
+  "dependencies": {
+    "@types/node": "^22.4.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/body-parser": "^1.19.5",
+    "@types/compression": "^1.7.5",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/morgan": "^1.9.9",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2"
+  }
+}
